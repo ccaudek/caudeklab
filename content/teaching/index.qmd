@@ -27,14 +27,14 @@ library(fontawesome)
 <aside>
 **Semesters Taught**:
 
-- Fall 2021
+- Spring 2023
 </aside>
 
 `r htmltools::br()`
 
 :::float-left
 
-### `r fa("chalkboard-teacher")` Psicometria – Spring 2022
+### `r fa("chalkboard-teacher")` Psicometria 
 
 #### Course Aims
 
@@ -46,7 +46,7 @@ This course provides students with a foundation in exploring data using the [R p
 <aside>
 **Semesters Taught**:
 
-- Spring 2022
+- Spring 2023
 </aside>
 
 `r htmltools::br()`
@@ -77,7 +77,7 @@ At the end of the semester, students will submit a final, reproducible report of
 <aside>
 **Semesters Taught**:
 
-- Spring 2022
+- Spring 2023
 </aside>
 
 

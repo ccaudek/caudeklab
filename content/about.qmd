@@ -22,6 +22,15 @@ website:
 - MA in Philosophy (1986)  
   [University of Trieste]{.small style="color: #888888"}
 
+## {{< fa university >}} Corrent Position
+
+I am currently an Associate Professor at the NEUROFARBA Department of the University of Florence, Italy.
+
+## {{< fa search-minus >}} Research Focus
+
+I work on individual differences in cognitive style and strategy. Lately, I have focused on deficits in associative learning in obsessive-compulsive disorder, eating disorders, and depression. I uses mathematical models, computational simulations and statistical analysis to understand the whether cognitive inflexibility can be understood as a transdiagnostic construct relevant within clinical settings. The ultimate goal of my work is to help design better intervention strategies against psychological disorders, both for individual patients and on the population level.
+
+
 ## {{< fa address-book >}} Contact Me
 
 You can send me an [email](mailto:corrado.caudek@unifi.it) or directly message me on [twitter](https://twitter.com/ccaudek).
