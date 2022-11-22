@@ -1,0 +1,83 @@
+---
+title: "Teaching"
+description: I teach undergraduate and graduate courses on data analysis in R and about scientific communication in the [Corso di Laurea Triennale in Scienze e Tecniche Psicologiche](https://www.scienzetecnichepsicologiche.unifi.it/) and in the [Corso di Laurea Magistrale in Psicologia Clinica e della Salute e Neuropsicologia](https://www.psicologia.unifi.it/vp-418-corso-di-laurea-magistrale-in-psicologia-clinica-e-della-salute-e-neuropsicologia-classe-lm-51.html) at the [Università degli Studi di Firenze](https://www.unifi.it).
+output:
+  distill::distill_article:
+    toc: false
+base_url: https://ccaudek.github.io/caudeklab/
+---
+
+```{r load_packages, message=FALSE, warning=FALSE, include=FALSE}
+library(fontawesome)
+```
+
+:::float-left
+
+### `r fa("chalkboard-teacher")` Laboratorio di valutazione psicologica
+
+#### Course Aims
+
+- To cultivate students' practical communication skills, with particular emphasis on effective writing and speaking on psychology topics to a variety of audiences;
+- To provide students with a range of resources and skills for effective communication of complex material;
+- To provide students with the opportunity to undertake a practical project in science writing.
+
+
+:::
+
+<aside>
+**Semesters Taught**:
+
+- Fall 2021
+</aside>
+
+`r htmltools::br()`
+
+:::float-left
+
+### `r fa("chalkboard-teacher")` Psicometria – Spring 2022
+
+#### Course Aims
+
+This course provides students with a foundation in exploring data using the [R programming language](https://www.r-project.org/). Students will learn how to source, manage, transform, and explore a wide variety of data types. Students will also master the fundamental concepts for visualizing and communicating information contained in raw data. All analyses will be conducted to support reproducibility from raw data to results using [RMarkdown](https://bookdown.org/yihui/rmarkdown/). Teaching will involve interactive lectures with plenty of class time spent working on examples and coding. Students will be assessed through in-class quizzes, reading reflections, and exploratory projects. Throughout the semester, students will work on a research project of their own design to demonstrate mastery of the course's topics. At the end of the semester, students will submit a final, reproducible report of their project along with an oral presentation of their findings. This course has a "flipped" classroom structure. Students will spend the majority of class time working through guiding practice exercises or working on their projects. Particular emphasis will be given to the fundamental concepts of Bayesian statistics for the analysis of psychological data.
+
+
+:::
+
+<aside>
+**Semesters Taught**:
+
+- Spring 2022
+</aside>
+
+`r htmltools::br()`
+
+
+:::float-left
+
+### `r fa("chalkboard-teacher")` Costruzione e validazione di strumenti di misura dell'efficacia dell'intervento psicologico in neuropsicologia (curriculum: Assessment e intervento psicologici in neuropsicologia - E21)
+
+#### Course Aims
+
+This class is meant as a stimulus and guide for learning the basics of psychological and neuropsychological assessment. Topics include the basic concepts of neuropsychological assessment; 
+the problem of neuropsychological deficit measurement;
+the specificity of the procedures of neuropsychological assessment;
+the interpretation of the outcome of a neuropsychological evaluation; the methodologies used to evaluate the effectiveness of psychological intervention in neuropsychology;
+The classic tests theory;
+factor analysis; 
+the standard error of measurement;
+the standard error of estimation;
+teliability;
+item Analysis;
+factor scores;
+different forms of validity.
+At the end of the semester, students will submit a final, reproducible report of their project along with a 10-minute presentation of their findings. This course has a "flipped" classroom structure. Students will spend the majority of class time working through guiding practice exercises or working on their projects. To prepare for class, students must complete weekly assignments that involve watching and reviewing recorded lecture materials and answering related practice questions.
+
+:::
+
+<aside>
+**Semesters Taught**:
+
+- Spring 2022
+</aside>
+
+

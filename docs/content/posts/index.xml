@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>CaudekLab</title>
+<link>https://ccaudek.github.io/caudeklab/content/posts/index.html</link>
+<atom:link href="https://ccaudek.github.io/caudeklab/content/posts/index.xml" rel="self" type="application/rss+xml"/>
+<description>Cognitive &amp; Data Scientist: Models of the Mind, ◈ R, Stats, Bayes</description>
+<image>
+<url>https://ccaudek.github.io/caudeklab/../../res/avatar.jpg</url>
+<title>CaudekLab</title>
+<link>https://ccaudek.github.io/caudeklab/content/posts/index.html</link>
+</image>
+<generator>quarto-1.2.269</generator>
+<lastBuildDate>Fri, 01 Oct 2021 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Rescorla-Wagner</title>
+  <dc:creator>Corrado Caudek</dc:creator>
+  <link>https://ccaudek.github.io/caudeklab/content/posts/2021-10-02-rescorla-wagner/rescorla-wagner.html</link>
+  <description><![CDATA[ Il modello di Rescorla-Wagner fornisce una regola di apprendimento che descrive come cambia la forza associativa durante il condizionamento pavloviano. Supponiamo di prendere uno stimolo inizialmente neutro (ad es. un tono) e di associarlo a un risultato che ha un valore intrinseco per l’organismo (ad es. un premio – oppure una punizione). Col tempo l’organismo impara ad associare il tono al premio e risponderà al tono più o meno allo stesso modo in cui risponde al premio. In questo esempio il premio è lo stimolo incondizionato (US) e il tono è stimolo condizionato (SC). ]]></description>
+  <category>LM-51</category>
+  <category>R</category>
+  <guid>https://ccaudek.github.io/caudeklab/content/posts/2021-10-02-rescorla-wagner/rescorla-wagner.html</guid>
+  <pubDate>Fri, 01 Oct 2021 22:00:00 GMT</pubDate>
+  <media:content url="https://ccaudek.github.io/caudeklab/res/avatar.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Sommatorie</title>
+  <dc:creator>Corrado Caudek</dc:creator>
+  <link>https://ccaudek.github.io/caudeklab/content/posts/2021-10-01-sommatorie/sommatorie.html</link>
+  <description><![CDATA[ Il simbolo <img src="https://latex.codecogs.com/png.latex?%5Csum_%7Bi=1%7D%5E%7B%5Cinfty%7D"> indica che dobbiamo assegnare al numero intero <img src="https://latex.codecogs.com/png.latex?i"> tutti i suoi valori <img src="https://latex.codecogs.com/png.latex?1,%202,%203,%20..."> ed eseguire la somma dei termini. (Jean-Baptiste Joseph Fourier) ]]></description>
+  <guid>https://ccaudek.github.io/caudeklab/content/posts/2021-10-01-sommatorie/sommatorie.html</guid>
+  <pubDate>Thu, 30 Sep 2021 22:00:00 GMT</pubDate>
+  <media:content url="https://ccaudek.github.io/caudeklab/res/avatar.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Scrivere la tesi con R Markdown</title>
+  <dc:creator>Corrado Caudek</dc:creator>
+  <link>https://ccaudek.github.io/caudeklab/content/posts/2021-10-01-scrivere-la-tesi-con-r-markdown/scrivere-la-tesi-con-r-markdown.html</link>
+  <description><![CDATA[ Seguendo questo link potete trovare un <a href="https://drive.google.com/file/d/1rdcVgjB3Pv3NQcC2pO1Cew5rX6BnE69H/view?usp=sharing">video-tutorial</a> sull’uso di R Markdown per la scrittura della tesi di laurea. Il materiale che ho predisposto può essere scaricato selezionando questo <a href="https://drive.google.com/file/d/1wDrCDQEAX5ZtROl3Uyz1E0nR5KSiyv6m/view?usp=sharing">link</a>. Buon lavoro! ]]></description>
+  <category>L-24</category>
+  <category>LM-51</category>
+  <category>teaching</category>
+  <category>R</category>
+  <guid>https://ccaudek.github.io/caudeklab/content/posts/2021-10-01-scrivere-la-tesi-con-r-markdown/scrivere-la-tesi-con-r-markdown.html</guid>
+  <pubDate>Thu, 30 Sep 2021 22:00:00 GMT</pubDate>
+  <media:content url="https://ccaudek.github.io/caudeklab/res/avatar.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>La campana di Gauss</title>
+  <dc:creator>Corrado Caudek</dc:creator>
+  <link>https://ccaudek.github.io/caudeklab/content/posts/2021-10-01-la-campana-di-gauss/la-campana-di-gauss.html</link>
+  <description><![CDATA[ Per iniziare, carichiamo i pacchetti necessari. ]]></description>
+  <guid>https://ccaudek.github.io/caudeklab/content/posts/2021-10-01-la-campana-di-gauss/la-campana-di-gauss.html</guid>
+  <pubDate>Thu, 30 Sep 2021 22:00:00 GMT</pubDate>
+  <media:content url="https://ccaudek.github.io/caudeklab/res/avatar.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Istruzioni prova finale L-24</title>
+  <dc:creator>Corrado Caudek</dc:creator>
+  <link>https://ccaudek.github.io/caudeklab/content/posts/2021-10-01-istruzioni-prova-finale-l-24/istruzioni-prova-finale-l-24.html</link>
+  <description><![CDATA[ Mediante questo <a href="https://drive.google.com/open?id=1x4lI7VUn5JmRki-87my1f6gyLcw4TIuW">link</a> potete accedere ad un video in cui rispondo a tutte le possibili domande che potreste avere su questo argomento. Descriverò la procedura che consiglio per realizzare l’elaborato finale e per preparare la presentazione orale. Una volta scritto l’elaborato finale seguendo queste istruzioni, potete iniziare a lavorare alla presentazione orale. Sulla presentazione orale riceverete poi altri feedback negli incontri settimanali con i laureandi che saranno specificamente dedicati a questo tema. ]]></description>
+  <category>L-24</category>
+  <category>teaching</category>
+  <guid>https://ccaudek.github.io/caudeklab/content/posts/2021-10-01-istruzioni-prova-finale-l-24/istruzioni-prova-finale-l-24.html</guid>
+  <pubDate>Thu, 30 Sep 2021 22:00:00 GMT</pubDate>
+  <media:content url="https://ccaudek.github.io/caudeklab/res/avatar.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Istogramma</title>
+  <dc:creator>Corrado Caudek</dc:creator>
+  <link>https://ccaudek.github.io/caudeklab/content/posts/2021-10-01-istogramma/istogramma.html</link>
+  <description><![CDATA[ In questo tutorial ci poniamo il problema di costruire un istrogramma utilizzando la funzione <code><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot()</a></code> del pacchetto <code>ggplot2</code> in R. Vedremo quali sono i limiti degli istogrammi. Concluderemo introducendo una rappresentazione alternativa, la <em>densità della frequenza dei dati</em>, la quale attenua i limiti degli istogrammi. ]]></description>
+  <category>L-24</category>
+  <category>Psicometria</category>
+  <category>teaching</category>
+  <guid>https://ccaudek.github.io/caudeklab/content/posts/2021-10-01-istogramma/istogramma.html</guid>
+  <pubDate>Thu, 30 Sep 2021 22:00:00 GMT</pubDate>
+  <media:content url="https://ccaudek.github.io/caudeklab/res/avatar.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Bibliografia</title>
+  <dc:creator>Corrado Caudek</dc:creator>
+  <link>https://ccaudek.github.io/caudeklab/content/posts/2021-10-01-bibliografia/bibliografia.html</link>
+  <description><![CDATA[ Ho creato un breve <a href="https://drive.google.com/file/d/1PAXPIRlzUhoUhX5Lips0Ttcj-kmGBb1-/view?usp=sharing">video</a> con le istruzioni per creare la bibliografia delle tesi di laurea. Ci sono tanti tutorial sul web per affrontare questo problema: le semplici considerazioni che fornisco qui sono un possibile punto di partenza. ]]></description>
+  <category>L-24</category>
+  <category>LM-51</category>
+  <category>teaching</category>
+  <guid>https://ccaudek.github.io/caudeklab/content/posts/2021-10-01-bibliografia/bibliografia.html</guid>
+  <pubDate>Thu, 30 Sep 2021 22:00:00 GMT</pubDate>
+  <media:content url="https://ccaudek.github.io/caudeklab/res/avatar.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Manipolazione dei dati con dplyr</title>
+  <dc:creator>Corrado Caudek</dc:creator>
+  <link>https://ccaudek.github.io/caudeklab/content/posts/2021-09-26-manipolazione-dei-dati-con-dplyr/manipolazione-dei-dati-con-dplyr.html</link>
+  <description><![CDATA[ Aggiungo qui il <a href="https://drive.google.com/file/d/1AV-shsx5wNCar2VjHUh4cbIt84f1Dytw/view?usp=sharing">link</a> ad un video-tutorial che ho preparato relativamente alla manipolaizone dei dati usando le funzioni del pacchetto <code>dplyr</code>. ]]></description>
+  <category>R</category>
+  <category>Psicometria</category>
+  <category>L-24</category>
+  <guid>https://ccaudek.github.io/caudeklab/content/posts/2021-09-26-manipolazione-dei-dati-con-dplyr/manipolazione-dei-dati-con-dplyr.html</guid>
+  <pubDate>Sat, 25 Sep 2021 22:00:00 GMT</pubDate>
+  <media:content url="https://ccaudek.github.io/caudeklab/res/avatar.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Introduzione a R Markdown</title>
+  <dc:creator>Corrado Caudek</dc:creator>
+  <link>https://ccaudek.github.io/caudeklab/content/posts/2021-09-26-introduzione-a-r-markdown/introduzione-a-r-markdown.html</link>
+  <description><![CDATA[ Posto qui il <a href="https://drive.google.com/file/d/1dTXClK-EB_FJc9N4OVNl62N4oB9Olxdz/view?usp=sharing">link</a> ad un breve video-tutorial sull’uso di R Markdown. ]]></description>
+  <category>R</category>
+  <category>teaching</category>
+  <guid>https://ccaudek.github.io/caudeklab/content/posts/2021-09-26-introduzione-a-r-markdown/introduzione-a-r-markdown.html</guid>
+  <pubDate>Sat, 25 Sep 2021 22:00:00 GMT</pubDate>
+  <media:content url="https://ccaudek.github.io/caudeklab/res/avatar.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>La struttura del progetto</title>
+  <dc:creator>Corrado Caudek</dc:creator>
+  <link>https://ccaudek.github.io/caudeklab/content/posts/2021-09-25-la-struttura-del-progetto/la-struttura-del-progetto.html</link>
+  <description><![CDATA[ Di seguito riporto il <a href="https://drive.google.com/file/d/17MaYG_uT_UfjK31O9H2JCIxiOCT1yE7p/view?usp=sharing">link</a> ad un breve video-tutorial che cerca di rispondere alle seguenti domande: come organizzo tutto il materiale che fa parte di un progetto? Quali sono i principi che devo seguire per assegnare i nomi ai file? Come devo organizzare i file nelle cartelle? L’obiettivo è quello di immagazzinare sul computer il lavoro che abbiamo fatto in maniera tale che, in futuro, sarà facile recuperare quello che ci serve. E in modo tale che sia facile lavorare al nostro progetto nel presente. ]]></description>
+  <category>R</category>
+  <guid>https://ccaudek.github.io/caudeklab/content/posts/2021-09-25-la-struttura-del-progetto/la-struttura-del-progetto.html</guid>
+  <pubDate>Fri, 24 Sep 2021 22:00:00 GMT</pubDate>
+  <media:content url="https://ccaudek.github.io/caudeklab/res/avatar.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Facebook</title>
+  <dc:creator>Corrado Caudek</dc:creator>
+  <link>https://ccaudek.github.io/caudeklab/content/posts/2021-09-24-facebook/facebook.html</link>
+  <description><![CDATA[ È attiva la pagina <a href="https://www.facebook.com/Caudeklab-107236460995667/">facebook</a> del laboratorio. Contiene informazioni su progetti in corso e presentazioni dei laureandi. È una creazione dei torocinanti del laboratorio. ]]></description>
+  <category>social media</category>
+  <guid>https://ccaudek.github.io/caudeklab/content/posts/2021-09-24-facebook/facebook.html</guid>
+  <pubDate>Thu, 23 Sep 2021 22:00:00 GMT</pubDate>
+  <media:content url="https://ccaudek.github.io/caudeklab/res/avatar.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Stimatori distorti e non distorti della varianza</title>
+  <dc:creator>Corrado Caudek</dc:creator>
+  <link>https://ccaudek.github.io/caudeklab/content/posts/2021-09-20-stimatori-distorti-e-non-distorti-della-varianza/stimatori-distorti-e-non-distorti-della-varianza.html</link>
+  <description><![CDATA[ Ci sono due formule per la varianza: ]]></description>
+  <guid>https://ccaudek.github.io/caudeklab/content/posts/2021-09-20-stimatori-distorti-e-non-distorti-della-varianza/stimatori-distorti-e-non-distorti-della-varianza.html</guid>
+  <pubDate>Sun, 19 Sep 2021 22:00:00 GMT</pubDate>
+  <media:content url="https://ccaudek.github.io/caudeklab/res/avatar.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

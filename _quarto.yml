@@ -1,0 +1,150 @@
+project:
+  type: website
+  output-dir: "docs"
+  resources:
+    - .nojekyll
+    - CNAME
+    - "/res/*"
+    - "/libs/*"
+  render:
+    - "*.qmd"
+    - "*.md"
+    - "*.ipynb"
+    - "*.Rmd"
+    - "!TODO.md"
+    - "!LICENSE.md"
+    - "!test/"
+    - "!src/"
+  # pre-render: 
+  # post-render: 
+
+website:
+  title: "CaudekLab"
+  description: "Cognitive & Data Scientist: Models of the Mind, ◈ R, Stats, Bayes"
+  image: res/avatar.jpg
+  favicon: res/favicon.png
+  site-url: 'https://ccaudek.github.io/caudeklab/'
+  repo-url: https://github.com/ccaudek/caudeklab
+  repo-branch: main
+  repo-actions: [source, issue]
+  
+  ### Sharing ###
+  open-graph:
+    locale: en_US
+  twitter-card:
+    creator: "@ccaudek"
+    card-style: summary
+  
+  ### Search ###
+  search:
+    location: navbar
+    type: overlay
+    collapse-after: 10
+  
+  ### Navigation ###
+  # page-navigation: true
+  navbar:
+    # logo: TODO
+    # logo-alt: 
+    pinned: true
+    collapse: true
+    collapse-below: md
+    left:
+      - text: "{{< fa book >}} Publications"
+        file: content/pubs/index.qmd
+        aria-label: "Publications"
+      - text: "{{< iconify file-icons keynote height=20px >}} Teaching"
+        file: content/teaching/index.qmd
+        aria-label: "Teaching"
+      - text: "{{< fa blog >}} Blog"
+        file: content/posts/index.qmd
+        aria-label: "Blog"
+    right:
+      - text: "{{< fa user-tie >}} About Me"
+        file: content/about.qmd
+        aria-label: "About Me"
+      - icon: code-slash
+        href: https://github.com/ccaudek/caudeklab/
+        aria-label: "Website's source code"
+      - icon: twitter
+        href: https://twitter.com/ccaudek
+        aria-label: "Twitter"
+      - icon: github
+        href: https://github.com/ccaudek/
+        aria-label: "GitHub"
+  
+  ## See https://quarto.org/docs/reference/projects/websites.html#sidebar
+  ## Auto-sidebar: https://quarto.org/docs/websites/website-navigation.html#auto-generation
+  sidebar: false
+  
+  ### Footer ###
+  page-footer:
+    border: true
+    left: 
+      - text: "© 2022, Corrado Caudek"
+        href: LICENSE.md
+        aria-label: "Website's license"
+    right:
+      - text: "Made with Quarto ♥️"
+        href: https://quarto.org/
+        aria-label: "Quarto's website"
+
+
+from: markdown+emoji
+# bibliography: refs.bib
+csl: apa.csl
+link-citations: true
+
+citation: false
+comments: false
+toc: false
+
+format:
+  html:
+    theme:
+      light: [default, libs/css/light.scss]
+      dark: [libs/css/dark.scss] # default + custom dark ?
+    css: libs/css/style.css
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px
+    df-print: paged
+    # mainfont: "Lato"
+    # monofont: "Fira Mono"
+    fig-align: center
+    fig-dpi: 500
+    fig-format: svg
+    # fig-cap-location: bottom
+    anchor-sections: true
+    footnotes-hover: true
+    code-link: true
+    code-copy: hover
+    code-block-bg: true
+    code-overflow: scroll
+    highlight-style:
+      light: libs/highlight-styles/light.theme
+      dark: libs/highlight-styles/dark.theme
+    link-external-newwindow: true
+
+engine: knitr
+
+knitr:
+  opts_chunk:
+    warning: false
+    message: false
+    fig.align: center
+    dpi: 500
+    dev: svg
+    dev.args:
+      bg: transparent
+    # R.options:
+    #   scipen: 999
+
+execute:
+  warning: false
+  message: false
+  cache: false
+  freeze: auto
+
+editor: source

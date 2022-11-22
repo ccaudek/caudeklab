@@ -1,0 +1,112 @@
+---
+title: "Corrado Caudek"
+subtitle: "Cognitive & Behavioral Psychologist -- Behavioral Research, Data Science,   and Computational Models of the Mind."
+
+# description: "Research Engineer - [LITIS Lab](https://litislab.fr/en/litis)"
+
+image: res/avatar.jpg
+image-alt: "Profile picture of Corrado Caudek"
+
+about:
+  template: trestles
+  image: res/avatar.jpg
+  image-shape: round
+  links:
+    - text: "{{< ai orcid >}} ORCID"
+      url: https://orcid.org/0000-0002-1404-0420
+      aria-label: "ORCID"
+    - text: "GitHub"
+      icon: github
+      url: https://github.com/ccaudek/
+      aria-label: "GitHub"
+    - text: "Twitter"
+      icon: twitter
+      url: https://twitter.com/ccaudek
+      aria-label: "Twitter"
+    - text: "Email"
+      icon: envelope
+      url: "mailto:corrado.caudek@unifi.it"
+      aria-label: "Email"
+
+website:
+  open-graph:
+    description: "Cognitive & Data Scientist: Perception, HMI, VR ◈ R, Stats, Bayes"
+  twitter-card:
+    description: "Cognitive & Data Scientist: Perception, HMI, VR ◈ R, Stats, Bayes"
+
+filters:
+  - nutshell
+---
+
+::: {.column-page}
+
+**Welcome to my personal website!** I am an Associate Professor of Psychometrics and Quantitative Psychology at [Università degli Studi di Firenze](https://www.unifi.it) in Italy. I have a Ph.D. from [University of Virginia](https://www.virginia.edu) with a specialization in Experimental Psychology and a Laurea (master's degree) from [Università degli Studi di Trieste](https://www.units.it) in Italy, with a specialization in Experimental Psychology. Prior to joining the University of Florence, I was a Postdoctoral Researcher at the [Center for Neural Science](https://as.nyu.edu/cns.html) at [New York University](http://www.nyu.edu), a Postdoctoral Researcher at University of Trieste, and an Associate Professor at University of Trieste.
+
+```{r}
+#| echo: false
+#| output: false
+#| file: !expr here::here("src", "init.R")
+```
+
+```{r}
+#| echo: false
+#| fig-width: 10
+#| fig-height: 6
+#| fig-alt: A radar chart of my main skills
+
+skills <- tibble::tibble(
+  `Behavioral \n Research  ` = 0.95,
+  `Data \nScience` = 0.85,
+  `Scientific \nCommunication` = 0.75,
+  `Teaching` = 0.85,
+  `Clinical \nPsychology  ` = 0.625,
+  `Project  \nManagement` = 0.75,
+) |> mutate(ID = row_number(), .before = 1)
+
+skills_radar <- (ggradar::ggradar(
+    skills,
+    values.radar = NA,
+    grid.mid = 0,
+    grid.label.size = 0,
+    axis.label.size = 4.7,
+    group.line.width = 1,
+    group.point.size = 3,
+    group.colours = "#00AFBB",
+    background.circle.colour = NA,
+    gridline.mid.colour = "grey",
+    gridline.min.linetype = "solid",
+    gridline.mid.linetype = "dotted",
+    gridline.max.linetype = "longdash",
+    fill = TRUE,
+    fill.alpha = 0.3
+  ) 
+  + theme(
+    legend.position = "none",
+    plot.background = ggplot2::element_rect(fill = "transparent", colour = NA),
+    panel.background = ggplot2::element_rect(fill = "transparent", colour = NA),
+    panel.border = element_blank(),
+    axis.text.x = element_blank(),
+    axis.text.y = element_blank()
+  )
+)
+
+skills_radar$layers[[1]]$aes_params$colour <- "grey70"
+skills_radar$layers[[5]]$aes_params$colour <- "grey70"
+skills_radar$layers[[6]]$aes_params$colour <- "grey70"
+  
+skills_radar
+```
+
+I use this website to share information about my research and materials that can be useful to students. Thanks for visiting my site, and I am grateful for any feedback you may have!
+
+```{r echo=FALSE}
+htmltools::p(
+  "
+Sono un goriziano e un orgoglioso relitto vagabondo dell'Università degli Studi di Trieste. Ho conseguito il dottorato di ricerca in psicologia sperimentale  presso la University of Virginia, a Charlottesville, nel 1993.
+Successivamente, ho completato un un post-dottorato presso l'Università degli Studi di Trieste e un post-dottorato presso il Center for Neural Science della New York University. Ho lavorato per diversi anni all'Università degli Studi di Trieste e attualmente sono professore associato all'Università degli Studi di Firenze, dipartimento NEUROFARBA, sezione di Psicologia.
+  ",
+  style = "font-size: 80%; font-style: italic"
+)
+```
+
+:::

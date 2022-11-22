@@ -1,0 +1,65 @@
+---
+title: "{{< fa user-tie >}} About Me"
+
+image: ../res/avatar.jpg
+image-alt: "Profile picture of Corrado Caudek"
+
+website:
+  open-graph:
+    description: "Cognitive & Data Scientist: Models of the Mind, ◈ R, Stats, Bayes"
+  twitter-card:
+    description: "Cognitive & Data Scientist: Models of the Mind, ◈ R, Stats, Bayes"
+---
+
+## {{< fa graduation-cap >}} Education
+
+- PhD in Experimental Psychology (1993)  
+  [University of Virginia]{.small style="color: #888888"}
+
+- MA in Experimental Psychology (1991)  
+  [University of Virginia]{.small style="color: #888888"}
+
+- MA in Philosophy (1986)  
+  [University of Trieste]{.small style="color: #888888"}
+
+## {{< fa address-book >}} Contact Me
+
+You can send me an [email](mailto:corrado.caudek@unifi.it) or directly message me on [twitter](https://twitter.com/ccaudek).
+
+## {{< fa location-dot >}} Location
+
+Dipartimento [NEUROFARBA](https://www.neurofarba.unifi.it), Università degli Studi di Firenze
+
+Via di San Salvi n. 12, Complesso di S. Salvi, Padiglione 26, Firenze, 50139, Italy.
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5762.26157132083!2d11.284630893675219!3d43.77014390000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sdipartimento%20di%20psicologia%20via%20di%20san%20salvi%20firenze!5e0!3m2!1sen!2sit!4v1669097237298!5m2!1sen!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+## {{< fa code >}} About this site
+
+This website was made with [Quarto](https://quarto.org/) and R.
+
+:::{.callout-tip collapse="true"}
+
+# Expand for Session Info
+
+```{r}
+#| echo: false
+#| output: false
+
+source(here::here("src", "init.R"), echo = FALSE)
+```
+
+```{r}
+#| echo: false
+
+si <- sessioninfo::session_info(pkgs = "attached")
+
+si$platform$Quarto <- system("quarto --version", intern = TRUE)
+
+si$platform$pandoc <- strsplit(si$platform$pandoc, "@")[[1]][1]
+
+si
+```
+
+:::

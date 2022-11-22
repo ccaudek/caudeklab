@@ -1,0 +1,14 @@
+# Blog posts
+
+image: ../../res/avatar.jpg
+image-alt: "Profile picture of Corrado Caudek"
+
+published-title: "First Published"
+
+citation: false
+toc: true
+number-sections: true
+code-tools:
+  source: false
+  toggle: false
+code-summary: "Alternatives"

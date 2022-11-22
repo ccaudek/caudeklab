@@ -1,0 +1,18 @@
+{
+  "hash": "d4981831ad18b5c60e5a0316f877f227",
+  "result": {
+    "markdown": "---\ntitle: \"Facebook\"\ndescription: |\n  La pagina Facebookd del laboratorio.\nauthor:\n  - name: Corrado Caudek\n    url: {}\ndate: 09-24-2021\noutput:\n  distill::distill_article:\n    self_contained: false\ncategories:\n  - social media\n---\n\n\n\n\nÈ attiva la pagina [facebook](https://www.facebook.com/Caudeklab-107236460995667/) del laboratorio.  Contiene informazioni su progetti in corso e presentazioni dei laureandi. È una creazione dei torocinanti del laboratorio.\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"../../../site_libs/pagedtable-1.1/css/pagedtable.css\" rel=\"stylesheet\" />\n<script src=\"../../../site_libs/pagedtable-1.1/js/pagedtable.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
