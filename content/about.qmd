@@ -22,14 +22,13 @@ website:
 - MA in Philosophy (1986)  
   [University of Trieste]{.small style="color: #888888"}
 
-## {{< fa university >}} Corrent Position
+## {{< fa university >}} Current Position
 
-I am currently an Associate Professor at the NEUROFARBA Department of the University of Florence, Italy.
+I am an Associate Professor of Psychometrics and Quantitative Psychology at [Università degli Studi di Firenze](https://www.unifi.it) in Italy. 
 
-## {{< fa search-minus >}} Research Focus
+## {{< fa university >}} Previous Positions
 
-I work on individual differences in cognitive style and strategy. Lately, I have focused on deficits in associative learning in obsessive-compulsive disorder, eating disorders, and depression. I uses mathematical models, computational simulations and statistical analysis to understand the whether cognitive inflexibility can be understood as a transdiagnostic construct relevant within clinical settings. The ultimate goal of my work is to help design better intervention strategies against psychological disorders, both for individual patients and on the population level.
-
+Prior to joining the University of Florence, I was a Postdoctoral Researcher at the [Center for Neural Science](https://as.nyu.edu/cns.html) at [New York University](http://www.nyu.edu), a Postdoctoral Researcher at [University of Trieste](https://www.units.it), and an Associate Professor at [University of Trieste](https://www.units.it).
 
 ## {{< fa address-book >}} Contact Me
 

@@ -40,7 +40,7 @@ filters:
 
 ::: {.column-page}
 
-**Welcome to my personal website!** I am an Associate Professor of Psychometrics and Quantitative Psychology at [Università degli Studi di Firenze](https://www.unifi.it) in Italy. I have a Ph.D. from [University of Virginia](https://www.virginia.edu) with a specialization in Experimental Psychology and a Laurea (master's degree) from [Università degli Studi di Trieste](https://www.units.it) in Italy, with a specialization in Experimental Psychology. Prior to joining the University of Florence, I was a Postdoctoral Researcher at the [Center for Neural Science](https://as.nyu.edu/cns.html) at [New York University](http://www.nyu.edu), a Postdoctoral Researcher at University of Trieste, and an Associate Professor at University of Trieste.
+**Welcome to my personal website!** I am an Associate Professor of Psychometrics and Quantitative Psychology at University of Florence in Italy. My research focuses on individual differences in cognitive style and strategy. I study deficits in associative learning in obsessive-compulsive disorder, eating disorders, and depression. I use mathematical models, computational simulations and statistical analysis to understand the whether cognitive inflexibility can be understood as a transdiagnostic construct relevant within clinical settings. The ultimate goal of my work is to help design better intervention strategies against psychological disorders, both for individual patients and on the population level.
 
 ```{r}
 #| echo: false
@@ -102,8 +102,7 @@ I use this website to share information about my research and materials that can
 ```{r echo=FALSE}
 htmltools::p(
   "
-Sono un goriziano e un orgoglioso relitto vagabondo dell'Università degli Studi di Trieste. Ho conseguito il dottorato di ricerca in psicologia sperimentale  presso la University of Virginia, a Charlottesville, nel 1993.
-Successivamente, ho completato un un post-dottorato presso l'Università degli Studi di Trieste e un post-dottorato presso il Center for Neural Science della New York University. Ho lavorato per diversi anni all'Università degli Studi di Trieste e attualmente sono professore associato all'Università degli Studi di Firenze, dipartimento NEUROFARBA, sezione di Psicologia.
+Sono un goriziano e un orgoglioso relitto vagabondo dell'Università degli Studi di Trieste. Ho conseguito il dottorato di ricerca in psicologia sperimentale  presso la University of Virginia, a Charlottesville, nel 1993. Successivamente, ho completato un post-dottorato presso l'Università degli Studi di Trieste e un post-dottorato presso il Center for Neural Science della New York University. Ho lavorato per diversi anni all'Università degli Studi di Trieste e attualmente sono professore associato all'Università degli Studi di Firenze, dipartimento NEUROFARBA, sezione di Psicologia.
   ",
   style = "font-size: 80%; font-style: italic"
 )
