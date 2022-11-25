@@ -32,7 +32,7 @@ Prior to joining the University of Florence, I was a Postdoctoral Researcher at 
 
 ## {{< fa address-book >}} Contact Me
 
-You can send me an [email](mailto:corrado.caudek@unifi.it) or directly message me on [twitter](https://twitter.com/ccaudek).
+The easiest way to get in touch with me is by [email](mailto:corrado.caudek@unifi.it).
 
 ## {{< fa location-dot >}} Location
 
